@@ -13,6 +13,10 @@ class Greeting {
     return `Welcome, ${this.name}!`;
   }
 
+  bye() {
+  	return 'bye';
+  }
+
 }
 
 export default Greeting;

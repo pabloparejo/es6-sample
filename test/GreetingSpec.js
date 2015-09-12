@@ -17,7 +17,7 @@ describe('Greeting', () => {
   });
 
   it('Should say bye', () => {
-  	expect(greeting.bye().to.be.equal('bye'))
-  })
+  	expect(greeting.bye()).to.be.equal('bye');
+  });
 
 });
