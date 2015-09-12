@@ -16,4 +16,8 @@ describe('Greeting', () => {
     expect(message).to.be.equal('Welcome, Guest!');
   });
 
+  it('Should say bye', () => {
+  	expect(greeting.bye().to.be.equal('bye'))
+  })
+
 });
